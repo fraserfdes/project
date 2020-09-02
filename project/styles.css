@@ -1,0 +1,47 @@
+ul {
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    
+    
+  }
+  li{
+      float: left;
+      padding:5px;
+      padding-left:10px;
+      font-size:30px;
+      
+    }
+ .box{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,20,40,1) 35%, rgba(16,116,136,1) 100%);
+     padding:0px;
+     height:50px;
+     width:100%;
+ }
+ a{
+     text-decoration:none;
+     color:white;
+
+ }
+ a:hover {
+    background-color:rgb(133, 89, 89);
+    -webkit-background-clip: text;
+    color:transparent;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    float:left;
+    display: inline;
+    margin-left: 30px;
+    margin-down:50px;
+    padding:4px;
+  }
+  
